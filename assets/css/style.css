@@ -1,0 +1,144 @@
+body {
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #cccccc;
+}
+
+div.center {
+    width: 960px;
+    margin: auto;
+    left: 50%;
+    right: -50%;
+}
+
+div.nav {
+    display: inline-block;
+    width: 960px;
+}
+
+div.wrapper {
+    width: 960px;
+    margin: auto;
+    left: 50%;
+    right: -50%;
+    margin-bottom: 40px; 
+    margin-top: 120px;
+}
+
+div.main {
+    width: 650px;
+    float: left;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #dddddd;
+}
+
+div.table {
+    display: table;
+    left: 50%;
+    right: -50%;
+    margin: 0 auto;
+}
+
+div.side {
+    width: 270px;
+    float: right;
+    background-color: #ffffff;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #dddddd;
+}
+
+div.line {
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+}
+
+div.foot {
+    text-align: center;
+    bottom: 0;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #666666;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+}
+
+img.pic {
+    float: left;
+}
+
+p, a {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+p, img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img.nospace {
+    padding: 0px;
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    float: left;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+Ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.nav {
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
